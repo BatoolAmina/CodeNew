@@ -8,7 +8,6 @@ public class JDBCExample {
    static final String DB_URL = "jdbc:mysql://localhost/TUTORIALSPOINT";
    static final String USER = "guest";
    static final String PASS = "guest123";
-
    public static void main(String[] args) {
       // Open a connection
       try(Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);
