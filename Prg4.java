@@ -9,11 +9,9 @@ class Division {
 			result = a / (b - c);
 			System.out.println("result" + result);
 		}
-
 		catch (ArithmeticException e) {
 			System.out.println("Exception caught:Division by zero");
 		}
-
 		finally {
 			System.out.println("I am in final block");
 		}
